@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("background copy.jpg");
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+
+}
+
+.container {
+  height: 67.5px;
+  padding-top:32.5px;
+  padding-right:50px;
+  padding-left:47px;
+  top: 0;
+  display: inline-block;
+  background-color: rgb(24, 180, 159);
+  margin-left: 15%;
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  margin-right: 125px;
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+  color: gray;
+  padding: 0 20px;
+}
+
+div{
+  color: rgba(190, 190, 190, 0.349);
+  font-size: 25px;
+  opacity: 20%;
+  font-style: thin;
+}
+
+ul li a:hover {
+  color: rgb(17, 180, 230);
+}
+
+.box-set {
+  height:100%;
+  width:100%;
+}
+.box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:85px;
+  padding-bottom:85px;
+  width: 65%;
+  height: 500px;
+  background-color: white;
+  color:rgb(24, 180, 159);
+  
+}
+
+p {
+  padding-top:40px;
+  padding-bottom: 10px;
+  font-size:35px;
+  
+}
+
+hr{
+  border:solid;
+  color: silver;
+  width:auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.bottomLine{
+  padding-bottom: -5px;
+}
+
+.headshot
+{
+  margin-left: 20px;
+  padding-left:30px;
+  margin-top: -25px;
+}
+
+.Bio {
+  font-size: 25px;
+  font: arial;
+  margin-top: -20px;
+  color: rgb(95, 95, 95);
+  overflow: hidden;
+  padding: 45px;
+  shape-outside: url(headshot.jpeg);
+  position: top;
+}
+
+#miniFooter{
+  margin-top:85px;
+  background-color: rgb(24, 180, 159);
+  position: relative;
+  height:4px;
+}
+
+#footer {
+  background-color: rgb(56, 56, 56);
+  position: relative;
+  height:70px;
+  color: lightgrey;
+  font: arial;
+  font-size: 3px;
+
+
+}
+
+.cc {
+  text-align: center;
+  font-size: 14px;
+  text-anchor: middle;
+  
+}
